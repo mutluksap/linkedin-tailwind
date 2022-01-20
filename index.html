@@ -14,65 +14,67 @@
     <header class="bg-white	w-full flex justify-center">
         <div style="width: 1128px;" class="flex justify-center">
             <div style="justify-content: space-between;" class="w-full flex items-center justify-between">
-                <div style="margin-right: 10rem;" class="flex items-center">
-                    <a style="width: 35px;" class="text-sky-700 mr-1.5" href="#">
-                        <img style="width: 35px; display: block;" src="/img/linkedin.png" alt="">
+                <div class="flex items-center w-5/12">
+                    <a class="text-sky-700 mr-1.5 w-9" href="#">
+                        <img src="/img/linkedin.png" alt="">
                     </a>
+                    <label for="input">
                     <div class="relative ">
-                        <div class="absolute text-slate-300 top-2 left-2"><i class="fas fa-search"></i></div>
+                        <div class="absolute text-gray-500 top-1.5 left-5"><i class="fas fa-search"></i></div>
                         <div class="w-94">
-                            <input placeholder="Arama Yap" class=" bg-gray-200 h-9 py-1 pl-9 w-64 font-thin text-black rounded-md focus:outline-none focus:w-80 transition-all" type="text">
+                            <input id="input" placeholder="Arama Yap" class=" bg-gray-200 h-9 py-1 pl-12 w-64 font-thin text-black rounded-md focus:outline-none focus:w-80 transition-all" type="text">
                         </div>
                     </div>
+                </label>
                 </div>
-                <ul class="flex items-center justify-between w-full">
-                    <li class="border-b-2">
-                        <a href="#" class="flex flex-col items-center text-gray-500 hover:text-black transition-all">
+                <ul class="flex items-center justify-between w-7/12">
+                    <li class="border-b-2 border-black w-20	">
+                        <a href="#" class="flex flex-col items-center text-black">
                             <div class="text-xl"><i class="fas fa-home"></i></div>
-                            <span class="text-sm font-thin mt-1">Ana Sayfa</span>
+                            <span class="text-xs mt-0.5 mb-1">Ana Sayfa</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="w-20	">
                         <a href="#" class="flex flex-col items-center text-gray-500 hover:text-black transition-all">
                             <div class="text-xl"><i class="fas fa-user-friends"></i></div>
-                            <span class="text-sm font-thin mt-1">Ağım</span>
+                            <span class="text-xs mt-0.5">Ağım</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="w-20">
                         <a href="#" class="flex flex-col items-center text-gray-500 hover:text-black transition-all">
                             <div class="text-xl"><i class="fas fa-briefcase"></i></div>
-                            <span class="text-sm font-thin mt-1">İş İlanları</span>
+                            <span class="text-xs mt-0.5">İş İlanları</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="w-20">
                         <a href="#" class="flex flex-col items-center text-gray-500 hover:text-black transition-all">
                             <div class="text-xl"><i class="fas fa-comment-dots"></i></div>
-                            <span class="text-sm font-thin mt-1">Mesajlaşma</span>
+                            <span class="text-xs mt-0.5">Mesajlaşma</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="w-20">
                         <a href="#" class="flex flex-col items-center text-gray-500 hover:text-black transition-all">
                             <div class="text-xl"><i class="fas fa-bell"></i></div>
-                            <span class="text-sm font-thin mt-1">Bildirimler</span>
+                            <span class="text-xs mt-0.5">Bildirimler</span>
                         </a>
                     </li>
-                    <li class="border-r-2">
-                        <a href="#" class="flex flex-col items-center text-gray-500 mr-5 hover:text-black transition-all">
+                    <li class="border-r-2 w-20">
+                        <a href="#" class="flex flex-col items-center text-gray-500 mr-1 hover:text-black transition-all">
                             <img class="w-6 rounded-full" src="img/avatar.jpg" alt="">
-                            <span class="text-sm font-thin mt-1">Ben
-                                <i class="fas fa-sort-down"></i>
+                            <span class="text-xs mt-0.5 flex items-center">Ben
+                                <i class="fas fa-sort-down ml-1"></i>
                             </span>
                         </a>
                     </li>
-                    <li>
-                        <a class="ml-5 flex flex-col text-gray-500 mr-5 hover:text-black" href="#">
+                    <li class="w-20">
+                        <a class="flex flex-col text-gray-500 hover:text-black items-center" href="#">
                             <i class="fas fa-th"></i>
-                            <span class="text-sm font-thin">İş
+                            <span class="text-xs mt-0.5">İş
                                     <i class="fas fa-sort-down"></i>
                             </span>
                         </a>
                     </li>
-                    <li>
+                    <li class="w-32">
                         <a class="flex justify-center flex-col items-center text-xs font-thin text-orange-900 hover:underline" href="#">
                             <div>Premium’u ücretsiz</div>
                             <div>deneyin</div>
@@ -83,8 +85,10 @@
         </div>
     </header>
 
-    <div style="width: 1128px;" class="container">
-        <div class="left"></div>
+    <div style="width: 1128px;" class="flex">
+        <div class="left">
+            <div></div>
+        </div>
         <div class="mid"></div>
         <div class="right"></div>
     </div>
