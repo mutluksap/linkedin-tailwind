@@ -12,18 +12,20 @@
 </head>
 <body class="font-sans w-full h-full bg-gray-100">
     <header class="bg-white	w-full flex justify-center">
-        <div class="container 3xl flex justify-center">
-            <div class="flex items-center">
-                <a class="text-sky-700 text-xl mr-1.5" href="#">
-                    <img class="w-8" src="/img/linkedin.png" alt="">
-                </a>
-                <div class="relative ">
-                    <div class="absolute"><i class="fas fa-search"></i></div>
-                    <input placeholder="Arama Yap" class=" bg-gray-200 py-1 pl-9 w-64 font-thin text-black rounded-m" type="text">
+        <div style="width: 1128px;" class="flex justify-center">
+            <div style="justify-content: space-between;" class="w-full flex items-center justify-between">
+                <div class="flex items-center">
+                    <a class="text-sky-700 text-xl mr-1.5" href="#">
+                        <img class="w-8" src="/img/linkedin.png" alt="">
+                    </a>
+                    <div class="relative ">
+                        <div class="absolute"><i class="fas fa-search"></i></div>
+                        <input placeholder="Arama Yap" class=" bg-gray-200 py-1 pl-9 w-64 font-thin text-black rounded-m focus:outline-none focus:w-80" type="text">
+                    </div>
                 </div>
                 <ul class="flex items-center justify-center">
                     <li>
-                        <a href="#" class="flex flex-col items-center text-gray-500 mr-5">
+                        <a href="#" class="flex flex-col items-center text-gray-500 mr-5 hover:text-black">
                             <i class="fas fa-home"></i>
                             <span class="text-sm font-thin mt-1">Ana Sayfa</span>
                         </a>
@@ -48,7 +50,7 @@
                     </li>
                     <li>
                         <a href="#" class="flex flex-col items-center text-gray-500 mr-5">
-                            <i class="fas fa-bell"></i>
+                            <div class="text-lg"><i class="fas fa-bell"></i></div>
                             <span class="text-sm font-thin mt-1">Bildirimler</span>
                         </a>
                     </li>
@@ -61,16 +63,17 @@
                         </a>
                     </li>
                     <li>
-                        <a class="ml-5" href="#">
+                        <a class="ml-5 flex flex-col text-gray-500" href="#">
                             <i class="fas fa-th"></i>
-                            <span>İş
-                                <i class="fas fa-sort-down"></i>
+                            <span class="text-sm font-thin">İş
+                                    <i class="fas fa-sort-down"></i>
                             </span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            Premium’u ücretsiz deneyin
+                        <a class="flex justify-center flex-col items-center text-sm font-thin " href="#">
+                            <div class="text-amber-300">Premium’u ücretsiz</div>
+                            <div>deneyin</div>
                         </a>
                     </li>
                 </ul>
