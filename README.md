@@ -3,4 +3,4 @@
 Tailwindcss'i daha önce deneme fırsatı bulamamıştım. Kısmet bugüneymiş :) <br>
 Tailwindcss ile <strong>Linkedin</strong> arayüzünü kodlamaya çalıştım. Bunu yaparken özel css kodu eklemeyip sadece Tailwindcss classlarına bağlı kalmaya çalıştım.
 <h2>Demo</h2>
-<a href="https://linkedin-tailwindcss.netlify.app/">https://linkedin-tailwindcss.netlify.app/</a>
+<a target="_blank" href="https://linkedin-tailwindcss.netlify.app/">https://linkedin-tailwindcss.netlify.app/</a>
